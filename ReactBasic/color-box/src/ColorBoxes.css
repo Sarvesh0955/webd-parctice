@@ -1,0 +1,11 @@
+.color-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 900px;
+}
+
+.color-boxes > div {
+    flex: 1 1 calc(33.33% - 10px);
+    margin: 5px;
+}
